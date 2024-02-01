@@ -19,11 +19,11 @@ def plot_coordinates(file_path, save_path):
     plt.xlabel('V+E')
     plt.ylabel('t')
     plt.grid(True)
-    plt.ylim(0,60)
+    plt.ylim(0,200)
     plt.savefig(save_path, format='png')
     plt.show()
 
 # Replace 'your_file.txt' with the actual path to your text file
-file_path = 'data2.txt'
-save_path = 'vremena_izvrsavanja2.png'
+file_path = '../measured_times/data.txt'
+save_path = 'vremena_izvrsavanja.png'
 plot_coordinates(file_path,save_path)

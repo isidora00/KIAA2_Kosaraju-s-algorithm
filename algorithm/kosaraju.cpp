@@ -163,7 +163,8 @@ void Graph::calcuateExecutionTime(string output, int leftBound, int rightBound)
 
 int main()
 {
-    //Graph::calcuateExecutionTime("data.txt", 1, 1000);
+    //remove comment for measuring execution times for different size inputs
+    //Graph::calcuateExecutionTime("../measured_times/data.txt", 1, 1000);
 
     Graph *g = new Graph(5);
 
